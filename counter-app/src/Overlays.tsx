@@ -10,19 +10,7 @@ export function Overlay({ count }: OverlayProps): JSX.Element {
     //const displayNumber = doImportantMath(count);
     return (
         <OverlayWrapper>
-            <div
-                style={{
-                    padding: "24px",
-                    background: "white",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    gap: "16px",
-                    borderRadius: "12px",
-                }}
-            >
-                {getMessageFromNumber(count)}
-            </div>
+            <OverlayInner>{getMessageFromNumber(count)}</OverlayInner>
         </OverlayWrapper>
     );
 }

@@ -32,13 +32,13 @@ const OverlayWrapper = styled.div`
 `;
 
 const OverlayInner = styled.div`
-    padding: "24px";
-    background: "white";
-    display: "flex";
-    flexdirection: "column";
-    alignitems: "center";
-    gap: "16px";
-    borderradius: "12px";
+    padding: 24px;
+    background: white;
+    display: flex;
+    flexdirection: column;
+    alignitems: center;
+    gap: 16px;
+    borderradius: 12px;
 `;
 
 const ContentsWrapper = styled.div`
